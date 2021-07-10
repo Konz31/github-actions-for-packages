@@ -70,4 +70,4 @@ jobs:
         context: .
         pull: true
         push: true
-        tags: Konz31/github-actions-for-packages:latest
+        tags: konz31/github-actions-for-packages:latest
