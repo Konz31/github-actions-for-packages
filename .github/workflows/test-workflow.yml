@@ -58,4 +58,6 @@ jobs:
     - name: Build the Docker image
       run: |
         docker build . --tag ghcr.io/konz31/github-actions-for-packages:latest
+        npm install
+        npm run build
         docker push ghcr.io/konz31/github-actions-for-packages:latest
