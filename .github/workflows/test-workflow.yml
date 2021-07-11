@@ -19,5 +19,4 @@ jobs:
     - name: Build the Docker image
       run: |
         docker build . --tag ghcr.io/konz31/github-actions-for-packages:latest
-        docker run ghcr.io/konz31/github-actions-for-packages:latest
         docker push ghcr.io/konz31/github-actions-for-packages:latest
